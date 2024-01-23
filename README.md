@@ -7,3 +7,6 @@ Make a bridge program that subscribes to the topic published by `key_publisher.p
 
 ![Gazebo Control](./assets/key_teleop.gif)
 
+## libraries to install
+- termios
+- tty

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import rospy 
-import signal 
 import tty, sys, termios
 from std_msgs.msg import String 
 import select
