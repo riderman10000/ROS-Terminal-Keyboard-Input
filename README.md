@@ -3,7 +3,7 @@ Program to capture the keys from keyboard and publish the keys to nodes to contr
 
 `key_publisher.py` takes the keystokes and publishes topic specified in it.
 
-Make a bridge program that subscribes to the topic published by `key_publisher.py`, which is `'keys'` and publish the appropriate data based on the input provided. Here, `keys_to_twist.py` listens to the input published by `key_publisher.py`, and publishes `Twist` data based on the keys it received to Gazebo topic `cmd_vel`. This way you can control the robot. 
+Make a bridge program that subscribes to the topic published by `key_publisher.py`, which is `'keys'` and publish the appropriate data based on the input provided. Here, `keys_to_twist.py` listens to the input published by `key_publisher.py`, and publishes `Twist` to Gazebo topic `cmd_vel` (the twist values are mapped based on the input) . This way you can control the robot. 
 
 ![Gazebo Control](./assets/key_teleop.gif)
 
